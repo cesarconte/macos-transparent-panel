@@ -1,0 +1,18 @@
+{
+    "KPlugin": {
+        "Authors": [
+            {
+                "Name": "Cesar"
+            }
+        ],
+        "Category": "",
+        "Description": "macOS Golden Gate adaptive translucent vibrancy theme for KDE Plasma 6",
+        "Id": "macOS-GoldenGate",
+        "License": "LGPL",
+        "Name": "macOS Golden Gate",
+        "Version": "1.0",
+        "Website": ""
+    },
+    "X-Plasma-API": "5.0",
+    "fallbackTheme": "default"
+}

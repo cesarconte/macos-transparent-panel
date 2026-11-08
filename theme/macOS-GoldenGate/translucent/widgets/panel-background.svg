@@ -1,0 +1,70 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape" xmlns:ns3="http://www.w3.org/1999/xlink" xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd" id="svg2" height="64" viewBox="0 0 157 64" width="157" inkscape:version="1.2.1 (9c6d41e410, 2022-07-14)" sodipodi:docname="panel-background.svg" version="1.1">
+  <sodipodi:namedview id="namedview108" pagecolor="#ffffff" bordercolor="#111111" borderopacity="1" inkscape:pageshadow="0" inkscape:pageopacity="0" inkscape:pagecheckerboard="1" inkscape:blackoutopacity="0.0" showgrid="true" inkscape:current-layer="svg2" inkscape:showpageshadow="2" inkscape:deskcolor="#d1d1d1" inkscape:zoom="8.0527682" inkscape:cx="113.81179" inkscape:cy="31.479858" inkscape:window-width="1920" inkscape:window-height="1119" inkscape:window-x="0" inkscape:window-y="0" inkscape:window-maximized="1">
+    <inkscape:grid type="xygrid" id="grid988" originx="0" originy="4" />
+  </sodipodi:namedview>
+  <defs id="defs15">
+    <style type="text/css" id="current-color-scheme">
+            .ColorScheme-Text {
+                color:#1d1d1f;
+                stop-color:#1d1d1f;
+            }
+            .ColorScheme-Background {
+                color:#eff0f1;
+                stop-color:#eff0f1;
+            }
+        </style>
+    <linearGradient inkscape:collect="always" ns3:href="#shadow-side" id="linearGradient1734" gradientUnits="userSpaceOnUse" x1="16" y1="6" x2="16" y2="16" />
+    <linearGradient inkscape:collect="always" ns3:href="#shadow-side" id="linearGradient1984" gradientUnits="userSpaceOnUse" x1="12" y1="16" x2="2" y2="16" />
+    <linearGradient inkscape:collect="always" ns3:href="#shadow-side" id="linearGradient4945" gradientUnits="userSpaceOnUse" x1="15.9999990463" y1="13.9999980927" x2="15.9999990463" y2="4" />
+    <linearGradient inkscape:collect="always" ns3:href="#shadow-side" id="linearGradient8667" gradientUnits="userSpaceOnUse" x1="4" y1="16" x2="14" y2="16" />
+    <radialGradient inkscape:collect="always" ns3:href="#shadow-corner" id="radialGradient3268" cx="95" cy="50" fx="95" fy="50" r="6.5" gradientUnits="userSpaceOnUse" gradientTransform="matrix(0,2.15384615385,-2.15384615385,0,107.692307692,-202.615384615)" />
+    <radialGradient inkscape:collect="always" ns3:href="#shadow-corner" id="radialGradient3268-4" cx="95" cy="50" fx="95" fy="50" r="6.5" gradientUnits="userSpaceOnUse" gradientTransform="matrix(0,2.15384615385,-2.15384615385,0,107.692307692,-202.615384615)" />
+    <radialGradient inkscape:collect="always" ns3:href="#shadow-corner" id="radialGradient3268-6" cx="93.1428604126" cy="50" fx="93.1428604126" fy="50" r="6.5" gradientUnits="userSpaceOnUse" gradientTransform="matrix(0,2.15384615385,-2.15384615385,0,107.692307692,-202.615384615)" />
+    <radialGradient inkscape:collect="always" ns3:href="#shadow-corner" id="radialGradient3268-6-6" cx="93.1428604126" cy="50" fx="93.1428604126" fy="50" r="6.5" gradientUnits="userSpaceOnUse" gradientTransform="matrix(0,2.15384615385,-2.15384615385,0,107.692307692,-202.615384615)" />
+  </defs>
+  <rect id="hint-tile-center" height="5" style="fill:#ff6600" width="5" x="0" y="0" />
+  <g id="top" transform="translate(6,10)" style="opacity:0;fill:none">
+    <rect id="rect4152" height="6" style="opacity:0;fill:none" class="ColorScheme-Background" width="32" x="0" y="0" />
+    <path style="opacity:0;fill:none" d="M 0,0 V 1 H 32 V 0 Z" id="path1337" class="ColorScheme-Background" fill="currentColor" />
+  </g>
+  <g id="bottom" transform="translate(6,48)" style="opacity:0;fill:none">
+    <rect id="rect4148" height="6" style="opacity:0;fill:none" class="ColorScheme-Background" width="32" x="0" y="0" />
+    <path style="opacity:0;fill:none" d="M 0,5 V 6 H 32 V 5 Z" id="path1671" class="ColorScheme-Background" fill="currentColor" />
+  </g>
+  <g id="left" transform="translate(0,16)" style="opacity:0;fill:none">
+    <rect id="rect4144" height="32" style="opacity:0;fill:none" class="ColorScheme-Background" width="6" x="0" y="0" />
+    <path style="opacity:0;fill:none" d="M 0,32 H 1 V 0 H 0 Z" id="path1785" class="ColorScheme-Background" fill="currentColor" />
+  </g>
+  <g id="right" transform="translate(38,16)" style="opacity:0;fill:none">
+    <rect id="rect4140" height="32" style="opacity:0;fill:none" class="ColorScheme-Background" width="6" x="0" y="0" />
+    <path style="opacity:0;fill:none" d="M 5,32 H 6 V 0 H 5 Z" id="path1902" class="ColorScheme-Background" fill="currentColor" />
+  </g>
+  <g id="center" transform="translate(6,16)" style="opacity:0;fill:none">
+    <rect id="rect4138" height="32" style="opacity:0;fill:none" class="ColorScheme-Background" width="32" x="0" y="0" />
+  </g>
+  <g id="topleft" transform="translate(0,10)" style="opacity:0;fill:none">
+    <path d="M 0,6 H 6 V 0 C 2,0 0,2 0,6 Z" style="opacity:0;fill:none" class="ColorScheme-Background" id="path3115" sodipodi:nodetypes="cccc" />
+  </g>
+  <g id="topright" transform="translate(38,10)" style="opacity:0;fill:none">
+    <path d="M 0,0 V 6 H 6 C 6,2 4,0 0,0 Z" style="opacity:0;fill:none" class="ColorScheme-Background" id="path3118" sodipodi:nodetypes="cccc" />
+  </g>
+  <g id="bottomleft" transform="translate(0,48)" style="opacity:0;fill:none">
+    <path d="M 6,6 V 0 H 0 c 0,4 2,6 6,6 z" style="opacity:0;fill:none" class="ColorScheme-Background" id="path3124" sodipodi:nodetypes="cccc" />
+  </g>
+  <g id="bottomright" transform="translate(38,48)" style="opacity:0;fill:none">
+    <path d="M 0,6 V 0 H 6 C 6,4 4,6 0,6 Z" style="opacity:0;fill:none" class="ColorScheme-Background" id="path3121" sodipodi:nodetypes="cccc" />
+  </g>
+  <rect id="hint-top-margin" height="4" style="fill:#ff00ff;stroke-width:0.999996" width="4" x="20" y="10" />
+  <rect id="hint-bottom-margin" height="4" style="fill:#ff00ff;stroke-width:0.999996" width="4" x="20" y="50" />
+  <rect id="hint-right-margin" height="4" style="fill:#ff00ff;stroke-width:0.999996" width="4" x="40" y="30" />
+  <rect id="hint-left-margin" height="4" style="fill:#ff00ff;stroke-width:0.999996" width="4" x="0" y="30" />
+  <rect id="hint-top-inset" height="9.99999993923e-09" style="fill:#00ff00" width="4" x="20" y="10" />
+  <rect id="hint-bottom-inset" height="9.99999993923e-09" style="fill:#00ff00" width="4" x="20" y="54" />
+  <rect id="hint-left-inset" height="4" style="fill:#00ff00" width="9.99999993923e-09" x="0" y="30" />
+  <rect id="hint-right-inset" height="4" style="fill:#00ff00" width="9.99999993923e-09" x="44" y="30" />
+  <rect style="opacity:0;fill:none" id="thick-center" width="32" height="32" x="19" y="75" class="ColorScheme-Background" />
+  <rect transform="rotate(90)" style="fill:#800080;fill-opacity:1;stroke:none;stroke-width:1.1547" id="thick-hint-right-margin" width="4" height="8" x="95" y="-56" />
+  <rect transform="rotate(90)" y="-20" x="95" height="8" width="4" id="thick-hint-left-margin" style="fill:#800080;fill-opacity:1;stroke:none;stroke-width:1.1547" />
+  <rect y="69" x="38" height="8" width="4" id="thick-hint-top-margin" style="fill:#800080;fill-opacity:1;stroke:none;stroke-width:1.1547" />
+  <rect style="fill:#800080;fill-opacity:1;stroke:none;stroke-width:1.1547" id="thick-hint-bottom-margin" width="4" height="8" x="39" y="105" />
+  </svg>
