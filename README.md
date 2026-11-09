@@ -30,7 +30,11 @@ En KDE Plasma 6 (`plasma-workspace` y `libplasma`), la apariencia del panel supe
      *(El uso del grupo estándar `[Blur]` es ignorado por `libplasma`, activando el desenfoque por defecto).*
    - La sección `[ContrastEffect]` con `enabled=false` desactiva el tintado cromático de KWin.
 
-Al combinar los elementos SVG en `opacity: 0` junto a `[BlurBehindEffect] enabled=false` y `[ContrastEffect] enabled=false`, el panel pasa a ser **completamente invisible para el compositor**, pero mantiene todos sus applets, relojes, iconos y menús 100% nítidos e interactivos.
+4. **Paleta de Color y Contraste macOS (Texto e Iconos Blancos):**
+   - En macOS, los elementos del panel superior (reloj, menú global, iconos de estado) se mantienen en color blanco para garantizar legibilidad y fidelidad estética frente al fondo de pantalla, independientemente de si el tema global del sistema conmuta entre modo Claro y Oscuro.
+   - Al definir [`colors`](file:///home/cesar/Proyectos/macos-transparent-panel/theme/macOS-GoldenGate/colors) dentro del tema de Plasma con `ForegroundNormal=252,252,252`, los componentes (`Kirigami.Theme.textColor`, `PlasmaComponents3`, SVG de iconos) permanecen en blanco nítido incluso cuando las aplicaciones del sistema adoptan el esquema de color Claro diurno (`BreezeLight`).
+
+Al combinar los elementos SVG en `opacity: 0` junto a `[BlurBehindEffect] enabled=false`, `[ContrastEffect] enabled=false` y la paleta `colors`, el panel pasa a ser **completamente invisible para el compositor**, pero mantiene todos sus applets, relojes, iconos y menús en blanco puro 100% nítidos e interactivos.
 
 ---
 
