@@ -72,18 +72,20 @@ chmod +x install.sh
 ```
 
 El script se encargará automáticamente de:
-1. Copiar el tema a `~/.local/share/plasma/desktoptheme/macOS-GoldenGate/`.
-2. Asignar `macOS-GoldenGate` como el tema de Plasma activo en `plasmarc`.
-3. Establecer `panelOpacity=0` en `plasmashellrc`.
+1. Eliminar cualquier copia previa en `~/.local/share/plasma/desktoptheme/macOS-GoldenGate` y copiar el tema a `/usr/share/plasma/desktoptheme/macOS-GoldenGate/`.
+2. Asignar `macOS-GoldenGate` como el tema de Plasma activo en `plasmarc` (y evitar que los paquetes *Look-and-Feel* `org.kde.breeze*.desktop` lo sobrescriban).
+3. Establecer `panelOpacity=2` (`Translucent`) en `plasmashellrc`.
 4. Purgar la caché de gráficos y reiniciar `plasmashell`.
 
 ---
 
 ### Opción B: Aplicación Manual en Otra Instalación
 
-1. **Copiar la carpeta del tema:**
+1. **Copiar la carpeta del tema a nivel de sistema (y eliminar duplicados en `~/.local`):**
    ```bash
-   cp -r theme/macOS-GoldenGate ~/.local/share/plasma/desktoptheme/
+   rm -rf ~/.local/share/plasma/desktoptheme/macOS-GoldenGate
+   sudo rm -rf /usr/share/plasma/desktoptheme/macOS-GoldenGate
+   sudo cp -r theme/macOS-GoldenGate /usr/share/plasma/desktoptheme/
    ```
 
 2. **Activar el tema en Plasma:**
@@ -91,11 +93,11 @@ El script se encargará automáticamente de:
    kwriteconfig6 --file plasmarc --group Theme --key name macOS-GoldenGate
    ```
 
-3. **Verificar que el panel use opacidad translúcida/adaptativa:**
-   En las opciones de edición del panel (clic derecho en el panel > *Configuración del panel*), asegúrate de que el estilo de opacidad esté en **Translúcido** o **Adaptativo** (y panel no flotante).
+3. **Verificar que el panel use opacidad translúcida:**
+   En las opciones de edición del panel (clic derecho en el panel > *Configuración del panel*), asegúrate de que el estilo de opacidad esté en **Translúcido** (y panel no flotante si está pegado al borde superior).
    O por comando:
    ```bash
-   kwriteconfig6 --file plasmashellrc --group PlasmaViews --group "Panel <ID>" --key panelOpacity 0
+   kwriteconfig6 --file plasmashellrc --group PlasmaViews --group "Panel <ID>" --key panelOpacity 2
    kwriteconfig6 --file plasmashellrc --group PlasmaViews --group "Panel <ID>" --key floating 0
    ```
 
